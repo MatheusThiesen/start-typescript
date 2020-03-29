@@ -1,0 +1,26 @@
+Iniciando no TypeScript 
+
+**NODE**
+
+  yarn init -y
+  yarn add express
+
+  yarn add @types/express typescript -D
+  yarn tsc --init //Gera um arquivo de configuração do typescript 
+
+  Configurar local do codigo traspilado da aplicação TS 
+  Arquivo "tsconfig.json"
+
+  -Descomentar a linha "outDir" e configurar local da pasta. 
+  EXEMPLO  "outDir": "./dist",
+
+
+  Ferramenta para traspilar o codigo TS para JS de uma forma automatizada. 
+  sucrase, babel, ts-node-dev. 
+
+  º Configurando script do TS-NODE-DEV
+  "dev":"ts-node-dev --respawn --transpileOnly src/app.ts"
+
+**ReactJS 
+
+  yarn create-app name teplate=typescript
